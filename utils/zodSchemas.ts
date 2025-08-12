@@ -1,4 +1,4 @@
-import { z } from "zod/mod.ts";
+import { z } from "zod";
 
 // Schema for the incoming chat request body
 export const chatRequestSchema = z.object({
