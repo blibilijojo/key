@@ -1,5 +1,5 @@
 import { Hono } from 'https://deno.land/x/hono/mod.ts';
-import { zValidator } from 'https://deno.land/x/hono@v4.3.11/validator/zod.ts';
+import { zValidator } from 'hono_zod_validator/mod.ts';
 import { chatRequestSchema } from '../utils/zodSchemas.ts';
 import { getAvailableKey } from '../services/keyProvider.ts';
 
