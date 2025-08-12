@@ -1,4 +1,4 @@
-import { Hono, Context } from "https://deno.land/x/hono/mod.ts";
+import { Hono, Context } from "hono/mod.ts";
 import userRoutes from "./routes/userRoutes.ts";
 import chatRoutes from "./routes/chat.ts";
 import { log } from "./middleware/logging.ts";

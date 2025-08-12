@@ -1,4 +1,4 @@
-import { z } from "https://deno.land/x/zod@v3.22.4/mod.ts";
+import { z } from "zod/mod.ts";
 
 // Schema for the incoming chat request body
 export const chatRequestSchema = z.object({
