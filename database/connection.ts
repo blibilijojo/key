@@ -1,4 +1,4 @@
-import { drizzle } from 'npm:drizzle-orm/postgres-js';
+import { drizzle } from 'https://deno.land/x/drizzle_orm@0.30.10/postgres-js/index.ts';
 import postgres from 'npm:postgres';
 import { dbConfig } from './config.ts';
 

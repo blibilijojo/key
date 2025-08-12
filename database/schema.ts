@@ -1,4 +1,4 @@
-import { pgTable, serial, varchar, timestamp } from 'npm:drizzle-orm/pg-core';
+import { pgTable, serial, varchar, timestamp } from 'https://deno.land/x/drizzle_orm@0.30.10/pg-core/index.ts';
 
 export const keys = pgTable('keys', {
   id: serial('id').primaryKey(),
