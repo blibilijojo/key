@@ -1,4 +1,4 @@
-import { Hono } from "hono/mod.ts";
+import { Hono } from "https://deno.land/x/hono/mod.ts";
 import { getUserById } from "../services/userService.ts";
 
 const userRoutes = new Hono();

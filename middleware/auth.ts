@@ -1,4 +1,4 @@
-import { Context, Next } from 'hono';
+import { Context, Next } from 'https://deno.land/x/hono/mod.ts';
 
 const API_KEY = 'your-secret-api-key'; // In a real app, use environment variables!
 

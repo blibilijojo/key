@@ -23,4 +23,5 @@ app.route("/chat", chatRoutes);
 console.log("✅ Server running on http://localhost:8000");
 
 Deno.serve(app.fetch);
+export default app;
 
