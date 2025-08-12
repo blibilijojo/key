@@ -5,7 +5,7 @@ export default {
   out: './database/migrations',
   driver: 'libsql',
   dbCredentials: {
-    url: './database/main.db',
+    url: Deno.env.get("DATABASE_URL")!,
   },
   verbose: true,
   strict: true,

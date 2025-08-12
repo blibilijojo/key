@@ -3,7 +3,7 @@ import postgres from 'npm:postgres';
 import { dbConfig } from './config.ts';
 
 // Create the client
-const queryClient = postgres(dbConfig.url);
+const queryClient = postgres(Deno.env.get("DATABASE_URL")!);
 
 // Create the Drizzle instance
 export const db = drizzle(queryClient);
