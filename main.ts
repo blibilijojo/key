@@ -1,5 +1,5 @@
-import { Hono } from "hono/mod.ts";
-import { Context } from "hono/context.ts";
+import { Hono } from "https://deno.land/x/hono@v4.4.6/mod.ts";
+import { Context } from "https://deno.land/x/hono@v4.4.6/context.ts";
 import userRoutes from "./routes/userRoutes.ts";
 import chatRoutes from "./routes/chatRoutes.ts";
 import { log } from "./middleware/logging.ts";
